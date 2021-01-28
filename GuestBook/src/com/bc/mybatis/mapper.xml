@@ -37,6 +37,11 @@
 		       REGDATE = SYSDATE
 		 WHERE IDX = #{idx}
 	</update>
+	
+	<delete id="delete" parameterType="int">
+		DELETE FROM GUESTBOOK
+		 WHERE IDX = #{idx}		
+	</delete>
 </mapper>
 
 
