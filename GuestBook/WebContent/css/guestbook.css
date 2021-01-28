@@ -1,0 +1,18 @@
+#container {
+	width : 512px;
+	margin : auto;
+	/* border : 1px solid black; */
+}
+#container h2 {text-align: center;}
+#container p {text-align: center;}
+#container table {
+	width: 500px;
+	margin: 0 auto;
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+#container table th, #container table td {border: 1px solid black;}
+#container table th {
+	background-color: #9cf;
+}
+#container .center {text-align: center;}
