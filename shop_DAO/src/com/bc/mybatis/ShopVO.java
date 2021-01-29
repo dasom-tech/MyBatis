@@ -22,7 +22,7 @@ public class ShopVO {
 	}
 	public void setQuant(int quant) {
 		this.quant = quant;
-		//수량이 변경되면 수량 합계금액(totalprice) 계산후 변경 처리
+		//수량이 변경되면 수량합계금액(totalprice) 계산후 변경처리
 		totalprice = p_saleprice * quant;
 	}
 	public int getTotalprice() {
